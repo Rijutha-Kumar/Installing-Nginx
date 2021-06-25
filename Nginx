@@ -1,0 +1,29 @@
+sudo yum install epel-release
+sudo yum update
+sudo yum install nginx
+sudo nginx -v
+sudo wget http://nginx.org/keys/nginx_signing.key
+sudo apt-key add nginx_signing.key
+ls
+service nginx status
+sudo yum install nginx
+sudo yum install nginx1
+sudo amazon-linux-extras install nginx1
+ls -lrt
+ls -la
+cd nginx_signing.key
+systemctl start nginx
+systemctl enable nginx
+systemctl status nginx
+\pwd
+ls -lrt
+ls -la
+bash nginix -v
+bash nginix -version
+bash nginix --version
+cd .bash_profile
+cd .ssh
+ls -la
+ls -lrt
+cd ..
+cat /etc/nginx/nginx.conf
